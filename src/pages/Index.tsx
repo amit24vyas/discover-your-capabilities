@@ -51,10 +51,16 @@ const Index = () => {
             placeholder="Enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="md:w-72"
+            className="md:w-72 h-12 px-6 text-base font-light tracking-wide placeholder:text-pink-300 
+                     border-pink-200 focus-visible:ring-pink-200 bg-white/80 backdrop-blur-sm
+                     transition-all duration-200 ease-in-out transform hover:scale-[1.02] focus:scale-[1.02]"
             required
           />
-          <Button type="submit" className="bg-pink-800 hover:bg-pink-700 text-white">
+          <Button 
+            type="submit" 
+            className="bg-pink-800 hover:bg-pink-700 text-white h-12 px-8 text-base font-medium tracking-wide
+                     transition-all duration-200 ease-in-out transform hover:scale-[1.02]"
+          >
             Notify Me
           </Button>
         </form>
