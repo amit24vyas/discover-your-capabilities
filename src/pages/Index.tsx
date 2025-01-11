@@ -30,7 +30,9 @@ const Index = () => {
 
       {/* Content */}
       <div className="relative z-10 max-w-3xl px-4 text-center">
-        <span className="inline-block mb-4 text-xl font-medium text-pink-600 tracking-wider">COMING SOON</span>
+        <span className="inline-block mb-4 text-2xl font-bold text-pink-600 tracking-[0.2em] uppercase">
+          COMING SOON
+        </span>
         
         <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-rose-900">
           Heritage Meets Modern
